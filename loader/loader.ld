@@ -20,7 +20,7 @@ SECTIONS {
 
 	. = ALIGN(0x40);
 	.stack : {
-		. += 0x8000;
+		. += 0x800;
 		_stack_top = .;
 	}
 }
